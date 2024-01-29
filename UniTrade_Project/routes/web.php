@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,8 +25,15 @@ Route::middleware([
     'verified',
 ])->group(function () {
     Route::get('/dashboard', function () {
-        return view('dashboard');
+        $usertype = Auth::user()->usertype;
+
+        if ($usertype == '1') {
+            return view('admin.home');
+        } else {
+            return view('dashboard');
+        }
     })->name('dashboard');
 });
 
-Route::get('/redirect',[HomeController::class, 'redirect;']);
+route::get('/redirect', [HomeController::class, 'redirect']);
+

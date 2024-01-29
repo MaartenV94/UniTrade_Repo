@@ -8,11 +8,12 @@ use App\Models\User;
 
 class HomeController extends Controller
 {
-    public function redirect(): \Illuminate\Contracts\View\View|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\Foundation\Application
+    public function redirect()
     {
-        $usertype=Auth::user()->usertype;
 
-        if($usertype=='1')
+        $usertype = Auth::user()->usertype;
+
+        if ($usertype == '1')
         {
             return view('admin.home');
         }
