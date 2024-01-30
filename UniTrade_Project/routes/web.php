@@ -15,9 +15,7 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+route::get('/', [HomeController::class, 'index']);
 
 Route::middleware([
     'auth:sanctum',
@@ -30,7 +28,7 @@ Route::middleware([
         if ($usertype == '1') {
             return view('admin.home');
         } else {
-            return view('dashboard');
+            return view('home.userpage');
         }
     })->name('dashboard');
 });
