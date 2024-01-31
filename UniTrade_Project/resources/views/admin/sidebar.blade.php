@@ -85,7 +85,7 @@
               <span class="menu-icon">
                 <i class="mdi mdi-playlist-play"></i>
               </span>
-                <span class="menu-title">Catagory</span>
+                <span class="menu-title">Add Categories</span>
             </a>
         </li>
         <li class="nav-item menu-items">
