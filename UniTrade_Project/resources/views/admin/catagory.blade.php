@@ -26,7 +26,57 @@
             width: 50%;
             text-align: center;
             margin-top: 30px;
-            border: 3px solid white;
+            /*border: 3px solid white;*/
+        }
+
+        .styled-table
+        {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+        .styled-table th,
+        .styled-table td
+        {
+            padding: 12px 15px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .styled-table tbody tr:last-child td
+        {
+            border-bottom: none;
+        }
+
+        .styled-table th
+        {
+            background-color: #f2f2f2;
+        }
+
+        .styled-table td a
+        {
+            /*display: block;*/
+            padding: 8px;
+            text-align: center;
+            background-color: #dc3545;
+            /*color: #fff;*/
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .styled-table td a:hover
+        {
+            background-color: #c82333;
+        }
+
+        .bold-text
+        {
+            font-weight: bold;
+            font-size: 20px;
         }
 
     </style>
@@ -69,11 +119,11 @@
 
             </div>
 
-            <table class="center">
+            <table class="center styled-table">
 
                 <tr>
-                    <td>Category Name</td>
-                    <td>Action</td>
+                    <td class="bold-text">Category Name</td>
+                    <td class="bold-text">Action</td>
                 </tr>
 
                 @foreach($data as $data)
