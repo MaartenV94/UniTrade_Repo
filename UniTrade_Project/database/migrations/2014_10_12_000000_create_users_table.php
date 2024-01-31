@@ -20,11 +20,15 @@ return new class extends Migration
             $table->string('address')->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('student_id')->unique()->nullable();
+
             $table->rememberToken();
             $table->foreignId('current_team_id')->nullable();
             $table->string('profile_photo_path', 2048)->nullable();
             $table->timestamps();
         });
+
+        \DB::statement('ALTER TABLE users ADD CONSTRAINT check_student_id_range CHECK (student_id BETWEEN 21000000 AND 22999999)');
     }
 
     /**

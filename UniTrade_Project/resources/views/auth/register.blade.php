@@ -15,6 +15,11 @@
             </div>
 
             <div class="mt-4">
+                <x-label for="student_id" value="{{ __('Student ID') }}" />
+                <x-input id="student_id" class="block mt-1 w-full" type="number" name="student_id" :value="old('student_id')" required autocomplete="student_id" />
+            </div>
+
+            <div class="mt-4">
                 <x-label for="phone" value="{{ __('Phone') }}" />
                 <x-input id="phone" class="block mt-1 w-full" type="number" name="phone" :value="old('phone')" required autocomplete="phone" />
             </div>
