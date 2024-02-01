@@ -28,7 +28,7 @@
         }
         .th_colour
         {
-            background: #888a85;
+            background: #6c7293;
         }
         .th_design
         {
@@ -47,6 +47,17 @@
     <div class="main-panel">
         <div class="">
 
+            @if(session()->has('message'))
+
+                <div class="alert alert-success">
+
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">x</button>
+                    {{session()->get('message')}}
+
+                </div>
+
+            @endif
+
             <h2 class="font_size">All Products</h2>
 
             <table class="center">
@@ -59,6 +70,8 @@
                     <th class="th_design">Price</th>
                     <th class="th_design">Discount Price</th>
                     <th class="th_design">Product Image</th>
+                    <th class="th_design">Edit</th>
+                    <th class="th_design">Delete</th>
                 </tr>
 
                 @foreach($product as $product)
@@ -74,6 +87,12 @@
 
                         <image class="img_size" src="/product/{{$product->image}}"></image>
 
+                    </td>
+                    <td>
+                        <a class="btn btn-success" href="">Edit</a>
+                    </td>
+                    <td>
+                        <a class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this item?')" href="{{url('delete_product', $product->id)}}">Delete</a>
                     </td>
                 </tr>
 
