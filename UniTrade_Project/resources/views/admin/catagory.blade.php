@@ -90,7 +90,7 @@
     @include('admin.header')
     <!-- partial -->
     <div class="main-panel">
-        <div class="content-wrapper">
+        <div class="">
 
             @if(session()->has('message'))
 
