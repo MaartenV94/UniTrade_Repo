@@ -13,8 +13,8 @@
                 <div class="box">
                     <div class="option_container">
                         <div class="options">
-                            <a href="" class="option1">
-                                Men's Shirt
+                            <a href="{{url('product_details',$products->id)}}" class="option1">
+                                View Details
                             </a>
                             <a href="" class="option2">
                                 Buy Now
@@ -59,9 +59,9 @@
 
             @endforeach
 
-            <span style="padding-top: 20px">
+            <span style="padding-top: 20px; padding-left: 550px">
 
-                {!!$product->withQueryString()->links('pagination::bootstrap-5')!!}
+                {!!$product->withQueryString()->links('pagination::bootstrap-4')!!}
 
             </span>
 
