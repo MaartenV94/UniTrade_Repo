@@ -35,19 +35,19 @@
                         <img src="product/{{$products->image}}" alt="">
                     </div>
                     <div class="detail-box">
-                        <h5>
+                        <h5 style="font-size: 15px">
                             {{$products->title}}
                         </h5>
 
                         @if($products->discount_price!=null)
 
-                        <h6 style="color: red">
+                        <h6 style="color: #2f99e0; font-size: 15px">
                             Discount Price
                             <br>
                             £{{$products->discount_price}}
                         </h6>
 
-                            <h6 style="text-decoration: line-through; color: blue">
+                            <h6 style="text-decoration: line-through; color: red; font-size: 15px">
                                 Price
                                 <br>
                                 £{{$products->price}}
@@ -55,7 +55,7 @@
 
                             @else
 
-                            <h6 style="color: blue">
+                            <h6 style="color: #2f99e0">
                                 Price
                                 <br>
                                 £{{$products->price}}

@@ -64,12 +64,12 @@ h2 {
     display: block;
     width: 70px;
     height: 5px;
-    background: #f7444e;
+    background: #2f99e0;
     margin: 10px auto 10px;
 }
 
 .heading_container h2 span {
-  color: #f7444e;
+  color: #2f99e0;
 }
 
 .heading_container p {
@@ -167,11 +167,11 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #f7444e;
+  color: #2f99e0;
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link svg, .custom_nav-container .navbar-nav .nav-item.active .nav-link svg {
-  fill: #f7444e;
+  fill: #2f99e0;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -183,7 +183,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn:hover {
-  color: #f7444e;
+  color: #2f99e0;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -280,7 +280,7 @@ a:focus {
 }
 
 .slider_section .detail-box h1 span {
-  color: #f7444e;
+  color: #2f99e0;
 }
 
 .slider_section .detail-box p {
@@ -292,8 +292,8 @@ a:focus {
 .slider_section .detail-box a {
     display: inline-block;
     padding: 12px 45px;
-    background-color: #f7444e;
-    border: 1px solid #f7444e;
+    background-color: #2f99e0;
+    border: 1px solid #2f99e0;
     color: #ffffff;
     border-radius: 0;
     -webkit-transition: all 0.3s;
@@ -304,7 +304,7 @@ a:focus {
 
 .slider_section .detail-box a:hover {
   background-color: transparent;
-  color: #f7444e;
+  color: #2f99e0;
 }
 
 .slider_section .img-box img {
@@ -334,7 +334,7 @@ a:focus {
 .slider_section .carousel-indicators li.active {
   width: 20px;
   height: 20px;
-  background-color: #f7444e;
+  background-color: #2f99e0;
 }
 
 .slider_bg_box {
@@ -659,10 +659,10 @@ a:focus {
 .subscribe_section .subscribe_form form button {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #f7444e;
-  border: 1px solid #f7444e;
+  background-color: #2f99e0;
+  border: 1px solid #2f99e0;
   color: #ffffff;
-  border-radius: 35px;
+  /*border-radius: 35px;*/
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   text-transform: uppercase;
@@ -674,7 +674,7 @@ a:focus {
 
 .subscribe_section .subscribe_form form button:hover {
   background-color: transparent;
-  color: #f7444e;
+  color: #2f99e0;
 }
 
 .client_section .box {
@@ -771,7 +771,7 @@ a:focus {
   height: 50px;
   opacity: 1;
   color: #ffffff;
-  background-color: #f7444e;
+  background-color: #2f99e0;
   border-radius: 100%;
 }
 
@@ -836,7 +836,7 @@ a:focus {
 }
 
 .footer_section .footer_contact .contact_link_box a:hover {
-  color: #f7444e;
+  color: #2f99e0;
 }
 
 .footer_section .footer-logo {
@@ -850,7 +850,7 @@ a:focus {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: left;
+    -webkit-box-pack: start;
     -ms-flex-pack: center;
     justify-content: left;
     margin-top: 25px;
@@ -1044,7 +1044,7 @@ div.form_sub .field input[type="email"], div.form_sub .field input[type="email"]
 .form_sub input[type="email"] + input[type="submit"] {
     position: absolute;
     right: 0;
-    background: #f7444e;
+    background: #2f99e0;
     color: #fff;
     border: none;
     top: 0px;
@@ -1094,7 +1094,7 @@ form input[type="submit"] {
 
 form input[type="submit"]:hover,
 form input[type="submit"]:focus {
-    background: #f7444e;
+    background: #2f99e0;
     color: #fff;
 }
 
@@ -1115,12 +1115,12 @@ form input[type="submit"]:focus {
 
 .cpy_ p a {
     margin: 0;
-    color: #f7444e;
+    color: #2f99e0;
     font-size: 15px;
     font-weight: 400;
 }
 
-http://kute-themes.com/html/boutique/html/index.html
-https://template.hasthemes.com/noraure/noraure/index.html
-https://preview.hasthemes.com/xoss-preview/xoss/index.html
+/*http://kute-themes.com/html/boutique/html/index.html*/
+/*https://template.hasthemes.com/noraure/noraure/index.html*/
+/*https://preview.hasthemes.com/xoss-preview/xoss/index.html*/
 

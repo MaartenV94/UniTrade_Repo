@@ -12,7 +12,7 @@
                         <div class="img_container">
                             <div class="img-box">
                                 <div class="img_box-inner">
-                                    <img src="images/client.jpg" alt="">
+                                    <img src="images/client2.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -34,7 +34,7 @@
                         <div class="img_container">
                             <div class="img-box">
                                 <div class="img_box-inner">
-                                    <img src="images/client.jpg" alt="">
+                                    <img src="images/client3.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@
                         <div class="img_container">
                             <div class="img-box">
                                 <div class="img_box-inner">
-                                    <img src="images/client.jpg" alt="">
+                                    <img src="images/client4.jpg" alt="">
                                 </div>
                             </div>
                         </div>

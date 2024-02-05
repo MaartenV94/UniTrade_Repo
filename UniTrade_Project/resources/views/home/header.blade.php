@@ -1,14 +1,14 @@
 <header class="header_section">
     <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-            <a class="navbar-brand" href="{{url('/')}}"><img width="250" src="images/logo.png" alt="#" /></a>
+            <a class="navbar-brand" href="{{url('/')}}"><img width="260" height="100" src="images/UniTradelogo.png" alt="#" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class=""> </span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
 
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="{{url('/')}}">Home <span class="sr-only">(current)</span></a>
                     </li>
 
@@ -21,11 +21,11 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="product.html">Products</a>
+                        <a class="nav-link" href="">Products</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="blog_list.html">Blog</a>
+                        <a class="nav-link" href="public/home/blog_list.html">Blog</a>
                     </li>
 
                     <li class="nav-item">
@@ -71,7 +71,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="btn btn-outline-info" href="{{ route('register') }}">Register</a>
+                                <a class="btn btn-outline-dark" href="{{ route('register') }}">Register</a>
                             </li>
                         @endauth
 

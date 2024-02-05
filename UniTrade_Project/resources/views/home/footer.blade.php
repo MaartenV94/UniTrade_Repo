@@ -4,12 +4,12 @@
             <div class="col-md-4">
                 <div class="full">
                     <div class="logo_footer">
-                        <a href="#"><img width="210" src="images/logo.png" alt="#" /></a>
+                        <a href="#"><img width="210" src="images/UniTradelogo.png" alt="#" /></a>
                     </div>
                     <div class="information_f">
-                        <p><strong>ADDRESS:</strong> 28 White tower, Street Name New York City, USA</p>
-                        <p><strong>TELEPHONE:</strong> +91 987 654 3210</p>
-                        <p><strong>EMAIL:</strong> yourmain@gmail.com</p>
+                        <p><strong>ADDRESS:</strong> 28 Tower road, Aylesbury, Buckinghamshire, UK</p>
+                        <p><strong>TELEPHONE:</strong> 0800 484 789</p>
+                        <p><strong>EMAIL:</strong> UniTrade@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                         <div class="widget_menu">
                             <h3>Newsletter</h3>
                             <div class="information_f">
-                                <p>Subscribe by our newsletter and get update protidin.</p>
+                                <p>Subscribe by our newsletter to get our latest updates.</p>
                             </div>
                             <div class="form_sub">
                                 <form>
