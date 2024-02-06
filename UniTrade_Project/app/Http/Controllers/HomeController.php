@@ -199,8 +199,4 @@ class HomeController extends Controller
         return back();
     }
 
-    public function show_product()
-    {
-        return view('Product_page.show_product');
-    }
 }
