@@ -214,10 +214,6 @@ class HomeController extends Controller
         return view('testimonial.testimonial_page');
     }
 
-    public function blog_page()
-    {
-        return view('blog.blog_page');
-    }
 
     public function contact_page()
     {

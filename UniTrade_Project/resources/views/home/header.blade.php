@@ -1,7 +1,7 @@
 <header class="header_section">
     <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-            <a class="navbar-brand" href="{{url('/')}}"><img width="260" height="100" src="images/UniTradelogo.png" alt="#" /></a>
+            <a class="navbar-brand" href="{{url('/')}}"><img width="160" height="80" src="images/Transparentlogo.png" alt="#" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class=""> </span>
             </button>
@@ -25,15 +25,15 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="{{url('blog_page')}}">Blog</a>
-                    </li>
-
-                    <li class="nav-item">
                         <a class="nav-link" href="{{url('contact_page')}}">Contact</a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link" href="{{url('show_cart')}}">Cart</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url('/upload_page')}}">Upload</a>
                     </li>
 
                     <form class="form-inline">
@@ -67,7 +67,7 @@
 
 
                             <li class="nav-item">
-                                <a class="btn btn-custom btn-outline-primary" style="margin-right: 15px; margin-left: 10px" href="{{ route('login') }}">Login</a>
+                                <a class="btn btn-custom btn-outline-primary" style="margin-right: 20px; margin-left: 20px" href="{{ route('login') }}">Login</a>
                             </li>
 
                             <li class="nav-item">

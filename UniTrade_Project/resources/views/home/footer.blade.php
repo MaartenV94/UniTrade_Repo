@@ -4,7 +4,7 @@
             <div class="col-md-4">
                 <div class="full">
                     <div class="logo_footer">
-                        <a href="#"><img width="210" src="images/UniTradelogo.png" alt="#" /></a>
+                        <a class="navbar-brand" href="{{url('/')}}"><img width="170" height="100" style="margin-top: -50px" src="images/transparentLogo.png" alt="#" /></a>
                     </div>
                     <div class="information_f">
                         <p><strong>ADDRESS:</strong> 28 Tower road, Aylesbury, Buckinghamshire, UK</p>
@@ -22,11 +22,10 @@
                                     <h3>Menu</h3>
                                     <ul>
                                         <li><a href="#">Home</a></li>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Services</a></li>
-                                        <li><a href="#">Testimonial</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="{{url('about_page')}}">About</a></li>
+                                        <li><a href="{{url('testimonial_page')}}">Testimonial</a></li>
+                                        <li><a href="{{url('product_page')}}">Products</a></li>
+                                        <li><a href="{{url('contact_page')}}">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -34,12 +33,9 @@
                                 <div class="widget_menu">
                                     <h3>Account</h3>
                                     <ul>
-                                        <li><a href="#">Account</a></li>
-                                        <li><a href="#">Checkout</a></li>
-                                        <li><a href="#">Login</a></li>
-                                        <li><a href="#">Register</a></li>
-                                        <li><a href="#">Shopping</a></li>
-                                        <li><a href="#">Widget</a></li>
+                                        <li><a href="{{url('show_cart')}}">Cart</a></li>
+                                        <li><a href="{{ route('login') }}">Login</a></li>
+                                        <li><a href="{{ route('register') }}">Register</a></li>
                                     </ul>
                                 </div>
                             </div>

@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\UploadController;
 use Illuminate\Support\Facades\Auth;
 
 /*
@@ -59,6 +60,8 @@ route::get('/order', [AdminController::class, 'order']);
 
 route::get('/delivered/{id}', [AdminController::class, 'delivered']);
 
+route::get('/search', [AdminController::class, 'searchdata']);
+
 
 
 route::get('/product_details/{id}', [HomeController::class, 'product_details']);
@@ -75,19 +78,23 @@ route::get('/stripe/{totalprice}', [HomeController::class, 'stripe']);
 
 Route::post('stripe/{totalprice}', [HomeController::class, 'stripePost'])-> name('stripe.post');
 
+route::get('/about_page', [HomeController::class, 'about_page']);
+
+route::get('/testimonial_page', [HomeController::class, 'testimonial_page']);
+
+route::get('/contact_page', [HomeController::class, 'contact_page']);
+
+
 
 
 route::get('/product_page', [ProductController::class, 'product_page']);
 
 
 
-route::get('/about_page', [HomeController::class, 'about_page']);
 
-route::get('/testimonial_page', [HomeController::class, 'testimonial_page']);
+route::get('/upload_page', [UploadController::class, 'upload_page']);
 
-route::get('/blog_page', [HomeController::class, 'blog_page']);
-
-route::get('/contact_page', [HomeController::class, 'contact_page']);
+route::post('/new_upload', [UploadController::class, 'new_upload']);
 
 
 

@@ -1,7 +1,7 @@
 <x-guest-layout>
     <x-authentication-card>
         <x-slot name="logo">
-            <a class="navbar-brand" href="{{url('/')}}"><img width="180" height="40" src="images/UniTradelogo.png" alt="#" /></a>
+            <a class="navbar-brand" href="{{url('/')}}"><img width="150" height="50" src="images/transparentLogo.png" alt="#" /></a>
         </x-slot>
 
         <x-validation-errors class="mb-4" />
