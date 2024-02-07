@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Auth;
 
 /*
@@ -59,6 +60,7 @@ route::get('/order', [AdminController::class, 'order']);
 route::get('/delivered/{id}', [AdminController::class, 'delivered']);
 
 
+
 route::get('/product_details/{id}', [HomeController::class, 'product_details']);
 
 route::post('/add_cart/{id}', [HomeController::class, 'add_cart']);
@@ -73,7 +75,11 @@ route::get('/stripe/{totalprice}', [HomeController::class, 'stripe']);
 
 Route::post('stripe/{totalprice}', [HomeController::class, 'stripePost'])-> name('stripe.post');
 
-route::get('/product_page', [HomeController::class, 'product_page']);
+
+
+route::get('/product_page', [ProductController::class, 'product_page']);
+
+
 
 route::get('/about_page', [HomeController::class, 'about_page']);
 
@@ -82,4 +88,8 @@ route::get('/testimonial_page', [HomeController::class, 'testimonial_page']);
 route::get('/blog_page', [HomeController::class, 'blog_page']);
 
 route::get('/contact_page', [HomeController::class, 'contact_page']);
+
+
+
+
 
