@@ -199,4 +199,29 @@ class HomeController extends Controller
         return back();
     }
 
+    public function product_page()
+    {
+        return view('product.product_page');
+    }
+
+    public function about_page()
+    {
+        return view('about.about_page');
+    }
+
+    public function testimonial_page()
+    {
+        return view('testimonial.testimonial_page');
+    }
+
+    public function blog_page()
+    {
+        return view('blog.blog_page');
+    }
+
+    public function contact_page()
+    {
+        return view('contact.contact_page');
+    }
+
 }

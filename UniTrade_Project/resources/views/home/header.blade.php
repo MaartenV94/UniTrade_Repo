@@ -13,23 +13,23 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Pages</span></a>
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Info</span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="testimonial.html">Testimonial</a></li>
+                            <li><a href="{{url('about_page')}}">About</a></li>
+                            <li><a href="{{url('testimonial_page')}}">Testimonial</a></li>
                         </ul>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="{{url('show_product')}}">Products</a>
+                        <a class="nav-link" href="{{url('product_page')}}">Products</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="public/home/blog_list.html">Blog</a>
+                        <a class="nav-link" href="{{url('blog_page')}}">Blog</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="{{url('contact_page')}}">Contact</a>
                     </li>
 
                     <li class="nav-item">
@@ -67,7 +67,7 @@
 
 
                             <li class="nav-item">
-                                <a class="btn btn-outline-primary" style="margin-right: 15px; margin-left: 10px" href="{{ route('login') }}">Login</a>
+                                <a class="btn btn-custom btn-outline-primary" style="margin-right: 15px; margin-left: 10px" href="{{ route('login') }}">Login</a>
                             </li>
 
                             <li class="nav-item">
