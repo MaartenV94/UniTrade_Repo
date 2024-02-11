@@ -140,9 +140,10 @@ class AdminController extends Controller
     {
         $searchText = $request -> search;
 
-        $order = order::where('name', 'LIKE', "%searchText%") -> get();
+        $order = order::where('name', 'LIKE', "%$searchText%") -> get();
 
         return view('admin.order', compact('order'));
     }
+
 
 }

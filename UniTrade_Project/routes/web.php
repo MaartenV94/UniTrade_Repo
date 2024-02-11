@@ -64,6 +64,7 @@ route::get('/search', [AdminController::class, 'searchdata']);
 
 
 
+
 route::get('/product_details/{id}', [HomeController::class, 'product_details']);
 
 route::post('/add_cart/{id}', [HomeController::class, 'add_cart']);
