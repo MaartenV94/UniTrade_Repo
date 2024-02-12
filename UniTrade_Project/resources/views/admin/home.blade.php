@@ -11,7 +11,14 @@
     <!-- partial -->
     @include('admin.header')
         <!-- partial -->
-    @include('admin.body')
+    @include('admin.body', [
+    'total_product' => $total_product,
+    'total_order' => $total_order,
+    'total_user' => $total_user,
+    'total_revenue' => $total_revenue,
+    'total_delivered' => $total_delivered,
+    'total_processing' => $total_processing
+    ])
 <!-- container-scroller -->
 <!-- plugins:js -->
     @include('admin.script')

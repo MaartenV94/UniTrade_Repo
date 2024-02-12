@@ -54,7 +54,7 @@
 <!-- end arrival section -->
 
 <!-- product section -->
-@include('home.product')
+@include('home.product', ['product' => $product])
 <!-- end product section -->
 
 <!-- subscribe section -->

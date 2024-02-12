@@ -1,7 +1,7 @@
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
     <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
-        <a class="sidebar-brand brand-logo navbar-brand" href=""><img src="images/Transparentlogo.png" alt="logo" /></a>
-        <a class="sidebar-brand brand-logo-mini" href=""><img src="images/Transparentlogo.png" alt="logo" /></a>
+        <a class="sidebar-brand brand-logo navbar-brand" href=""><img src="images/Transparentlogo2.png" alt="logo" style="width: 140px; height: 50px; padding-right: 40px" /></a>
+        <a class="sidebar-brand brand-logo-mini" href=""><img src="images/Transparentlogo2.png" alt="logo" style="width: 80px; height: 30px; padding-right: 10px"/></a>
     </div>
     <ul class="nav">
         <li class="nav-item nav-category">
