@@ -12,6 +12,7 @@
     <meta name="author" content="" />
     <link rel="shortcut icon" href="images/favicon.png" type="">
     <title>UniTrade</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="home/css/bootstrap.css" />
     <!-- font awesome style -->
@@ -22,6 +23,7 @@
     <link href="home/css/responsive.css" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="{{ asset('public/home/css/styles.css') }}">
+
 
     <style>
         .btn-custom {

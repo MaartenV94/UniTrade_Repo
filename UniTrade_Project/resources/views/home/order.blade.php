@@ -11,7 +11,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <link rel="shortcut icon" href="images/favicon.png" type="">
-    <title>Famms - Fashion HTML Template</title>
+    <title>UniTrade</title>
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="home/css/bootstrap.css" />
     <!-- font awesome style -->
@@ -24,13 +24,11 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('public/home/css/styles.css') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
-
-    <style>
-
+    <style type="text/css">
         .center
         {
             margin: auto;
-            width: 70%;
+            width: 80%;
             text-align: center;
             padding: 30px;
             padding-left: 100px;
@@ -53,7 +51,7 @@
 
         .img_deg
         {
-            height: 190px;
+            height: 90px;
             width: 230px;
         }
 
@@ -62,78 +60,64 @@
             font-size: 20px;
             padding: 40px;
         }
-
     </style>
 </head>
 <body>
-<div class="hero_area">
+
     <!-- header section starts -->
     @include('home.header')
     <!-- end header section -->
+
     <div class="heading_container heading_center">
         <h2>
-            Cart
+            Orders
         </h2>
     </div>
+    <div class="center">
 
-    @if(session()->has('message'))
+        <table>
 
-        <div class="alert alert-success">
+            <tr>
+                <th class="th_deg">Product Title</th>
+                <th class="th_deg">Quantity</th>
+                <th class="th_deg">Price</th>
+                <th class="th_deg">Payment Status</th>
+                <th class="th_deg">Delivery Status</th>
+                <th class="th_deg img_deg">Image</th>
+                <th class="th_deg">Cancel Order</th>
+            </tr>
 
-            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">x</button>
-            {{session()->get('message')}}
+            @foreach ($order as $order)
+            <tr>
+                <td>{{$order->product_title}}</td>
+                <td>{{$order->quantity}}</td>
+                <td>{{$order->price}}</td>
+                <td>{{$order->payment_status}}</td>
+                <td>{{$order->delivery_status}}</td>
+                <td>
+                    <img height="180" width="180" src="product/{{$order->image}}">
+                </td>
 
-        </div>
+                <td>
+                    @if($order -> delivery_status == 'Processing')
 
-    @endif
+                    <a onclick="return confirm('Are you sure you want to cancel this order?')" class="btn btn-danger" href="{{url('cancel_order', $order->id)}}">Cancel Order</a>
 
-<div class="center">
+                    @else
 
-    <table style="border-radius: 20px">
+                        <p>Not Allowed</p>
 
-        <tr>
-            <th class="th_deg">Product Title</th>
-            <th class="th_deg">Product Quantity</th>
-            <th class="th_deg">Price</th>
-            <th class="th_deg">Image</th>
-            <th class="th_deg">Action</th>
-        </tr>
-
-        <?php $totalprice = 0;  ?>
-
-        @foreach ($cart as $cart)
-
-        <tr>
-            <td>{{$cart->product_title}}</td>
-            <td>{{$cart->quantity}}</td>
-            <td>£{{$cart->price}}</td>
-            <td><img class="img_deg" src="/product/{{$cart->image}}"></td>
-            <td><a class="btn btn-danger" onclick="return confirm('Are you sure you want to remove this product?')" href="{{url('remove_cart', $cart->id)}}">Remove</a></td>
-        </tr>
-
-            <?php $totalprice = $totalprice + $cart -> price  ?>
-
-        @endforeach
-
-    </table>
-
-    <div>
-
-        <h3 class="total_deg">Total Price: £{{$totalprice}}</h3>
+                    @endif
+                </td>
+            </tr>
+            @endforeach
+        </table>
 
     </div>
 
-    <div>
-
-        <h3 style="font-size: 25px; padding-bottom: 15px">Proceed to checkout</h3>
-
-        <a href="{{url('cash_order')}}" class="btn btn-primary">Cash on Delivery</a>
-        <a href="{{url('stripe', $totalprice)}}" class="btn btn-primary">Pay With Card</a>
-
-    </div>
-
-</div>
-
+<!-- footer start -->
+@include('home.footer')
+<!-- footer end -->
 <div class="cpy_">
     <p class="mx-auto">© 2021 All Rights Reserved By <a href="https://html.design/">UniTrade</a><br>
 
@@ -142,12 +126,25 @@
     </p>
 </div>
 <!-- jQery -->
-<script src="home/js/jquery-3.4.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+{{--<script src="home/js/jquery-3.4.1.min.js"></script>--}}
 <!-- popper js -->
 <script src="home/js/popper.min.js"></script>
 <!-- bootstrap js -->
 <script src="home/js/bootstrap.js"></script>
 <!-- custom js -->
 <script src="home/js/custom.js"></script>
+
+
+<script>
+    $(document).ready(function(){
+        $('.nav-item').click(function(){
+            $('.nav-item').removeClass('active');
+            $(this).addClass('active');
+        });
+    });
+</script>
+
 </body>
 </html>

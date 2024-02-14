@@ -147,7 +147,7 @@ class HomeController extends Controller
             $order -> phone = $data -> phone;
             $order -> address = $data -> address;
             $order -> user_id = $data -> user_id;
-            $order -> product_title = $data -> Product_title;
+            $order -> product_title = $data -> product_title;
             $order -> price = $data -> price;
             $order -> quantity = $data -> quantity;
             $order -> image = $data -> image;
@@ -197,7 +197,7 @@ class HomeController extends Controller
             $order -> phone = $data -> phone;
             $order -> address = $data -> address;
             $order -> user_id = $data -> user_id;
-            $order -> product_title = $data -> Product_title;
+            $order -> product_title = $data -> product_title;
             $order -> price = $data -> price;
             $order -> quantity = $data -> quantity;
             $order -> image = $data -> image;
@@ -237,6 +237,35 @@ class HomeController extends Controller
     public function contact_page()
     {
         return view('contact.contact_page');
+    }
+
+    public function show_order()
+    {
+        if(Auth::id())
+        {
+            $user = Auth::user();
+
+            $userid = $user -> id;
+
+            $order = order::where('user_id','=',$userid) ->get();
+
+            return view('home.order', compact('order'));
+        }
+        else
+        {
+            return redirect('login');
+        }
+    }
+
+    public function cancel_order($id)
+    {
+        $order = order::find($id);
+
+        $order -> delivery_status = 'Order Cancelled';
+
+        $order -> save();
+
+        return redirect() -> back();
     }
 
 }

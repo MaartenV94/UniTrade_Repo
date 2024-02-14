@@ -86,6 +86,9 @@ route::get('/testimonial_page', [HomeController::class, 'testimonial_page']);
 
 route::get('/contact_page', [HomeController::class, 'contact_page']);
 
+route::get('/show_order', [HomeController::class, 'show_order']);
+
+route::get('/cancel_order/{id}', [HomeController::class, 'cancel_order']);
 
 
 

@@ -29,11 +29,15 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="{{url('show_cart')}}">Cart</a>
+                        <a class="nav-link" href="{{url('show_order')}}">Orders</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="{{url('/upload_page')}}">Upload</a>
+                        <a class="nav-link" href="{{url('/upload_page')}}"><i class="fas fa-plus"></i></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url('show_cart')}}"><i class="fas fa-shopping-cart"></i> </a>
                     </li>
 
                     <form class="form-inline">

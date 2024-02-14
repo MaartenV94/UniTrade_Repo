@@ -61,7 +61,7 @@
                     <th style="padding: 10px">Email</th>
                     <th style="padding: 10px">Address</th>
                     <th style="padding: 10px">Phone</th>
-{{--                    <th>Product Title</th>--}}
+                    <th>Product Title</th>
                     <th style="padding: 10px">Quantity</th>
                     <th style="padding: 10px">Price</th>
                     <th style="padding: 10px">Payment Status</th>
@@ -79,7 +79,7 @@
                     <td>{{$order->email}}</td>
                     <td>{{$order->address}}</td>
                     <td>{{$order->phone}}</td>
-{{--                    <td>{{$order->Product_title}}</td>--}}
+                    <td>{{$order->product_title}}</td>
                     <td>{{$order->quantity}}</td>
                     <td>£{{$order->price}}</td>
                     <td>{{$order->payment_status}}</td>

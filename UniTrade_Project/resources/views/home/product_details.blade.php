@@ -23,6 +23,8 @@
     <link href="home/css/responsive.css" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="{{ asset('public/home/css/styles.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
 </head>
 <body>
 <div class="hero_area">
