@@ -4,6 +4,15 @@
             <h2>
                 Our <span>Products</span>
             </h2>
+            <br>
+
+            <div>
+                <form>
+                    <input style="width: 500px" type="text" name="search" placeholder="Search for Products">
+                    <input type="submit" value="search">
+                </form>
+            </div>
+
         </div>
         <div class="row">
 
