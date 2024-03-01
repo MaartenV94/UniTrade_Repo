@@ -25,15 +25,7 @@ Route::middleware([
     config('jetstream.auth_session'),
     'verified',
 ])->group(function () {
-    Route::get('/dashboard', function () {
-        $usertype = Auth::user()->usertype;
-
-        if ($usertype == '1') {
-            return view('admin.home');
-        } else {
-            return view('home.userpage');
-        }
-    })->name('dashboard');
+    Route::get('/dashboard', [HomeController::class, 'redirect'])->name('dashboard');
 });
 
 route::get('/redirect', [HomeController::class, 'redirect']);
