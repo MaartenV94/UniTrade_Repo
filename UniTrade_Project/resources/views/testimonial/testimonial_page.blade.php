@@ -35,6 +35,12 @@
             border-color: #2f99e0;
             color: #ffffff; /* Text color */
         }
+        .carousel-control-prev i,
+        .carousel-control-next i {
+        color: #ffffff; 
+        font-size: 24px; 
+        }
+}
     </style>
 </head>
 <body>
@@ -145,7 +151,9 @@
     </p>
 </div>
 <!-- jQery -->
-<script src="home/js/jquery-3.4.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+{{--<script src="home/js/jquery-3.4.1.min.js"></script>--}}
 <!-- popper js -->
 <script src="home/js/popper.min.js"></script>
 <!-- bootstrap js -->

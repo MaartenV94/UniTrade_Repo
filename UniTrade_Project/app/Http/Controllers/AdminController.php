@@ -119,8 +119,9 @@ class AdminController extends Controller
     public function order()
     {
         $order = order::all();
+        $total_product = Product::count(); 
 
-        return view ('admin.order', compact('order'));
+        return view ('admin.order', compact('order', 'total_product'));
     }
 
     public function delivered($id)
