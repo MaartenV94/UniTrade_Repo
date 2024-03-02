@@ -75,6 +75,18 @@
 
     </p>
 </div>
+
+<script>
+        document.addEventListener("DOMContentLoaded", function(event) { 
+            var scrollpos = localStorage.getItem('scrollpos');
+            if (scrollpos) window.scrollTo(0, scrollpos);
+        });
+
+        window.onbeforeunload = function(e) {
+            localStorage.setItem('scrollpos', window.scrollY);
+        };
+    </script>
+    
 <!-- jQery -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 

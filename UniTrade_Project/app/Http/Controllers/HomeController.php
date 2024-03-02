@@ -268,4 +268,13 @@ class HomeController extends Controller
         return redirect() -> back();
     }
 
+    public function product_search(Request $request)
+    {
+        $search = $request -> search;
+
+        $product = product::where('title', 'like', '%'.$search.'%') -> paginate(6);
+
+        return view('home.userpage', compact('product'));
+    }
+
 }
