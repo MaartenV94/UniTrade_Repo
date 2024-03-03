@@ -88,6 +88,7 @@ route::get('/product_search', [HomeController::class, 'product_search']);
 
 route::get('/product_page', [ProductController::class, 'product_page']);
 
+route::get('/product_page_search', [ProductController::class, 'product_page_search']);
 
 
 

@@ -39,6 +39,14 @@
                 </h2>
             </div>
 
+            <div style="display: flex; justify-content: center;">
+                <form action="{{url('product_page_search')}}" method="GET">
+                    @csrf
+                    <input style="width: 500px" type="text" name="search" placeholder="Search for Products">
+                    <input type="submit" value="search">
+                </form>
+            </div>
+
             <div class="row">
 
                 @foreach($product as $products)
