@@ -11,17 +11,17 @@
                             <div class="detail-box">
                                 <h1>
                                     <span>
-                                    Sale 20% Off
+                                    Need Academic Essentials?
                                     </span>
                                     <br>
-                                    On Everything
+                                    Discover Great Deals Today!
                                 </h1>
                                 <p>
-                                    Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                                Looking for textbooks, electronics, furniture, or other academic materials? You're in the right place! Our platform connects university students like you to buy and sell pre-owned academic essentials at affordable prices. Whether you're hunting for the perfect textbook for your next course or ready to declutter your dorm room, we've got you covered.
                                 </p>
                                 <div class="btn-box">
                                     <a href="" class="btn1">
-                                        Shop Now
+                                        Start Exploring
                                     </a>
                                 </div>
                             </div>
@@ -36,17 +36,17 @@
                             <div class="detail-box">
                                 <h1>
                                     <span>
-                                    Sale 20% Off
+                                    Upgrade Your Study Space Today!
                                     </span>
                                     <br>
-                                    On Everything
+                                    Explore Amazing Discounts
                                 </h1>
                                 <p>
-                                    Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                                Transform your dorm room into a productivity haven with our selection of furniture and stationery essentials. Whether you need a cozy study chair, a spacious desk, or colorful organizers, discover everything you need to create an inspiring workspace.
                                 </p>
                                 <div class="btn-box">
                                     <a href="" class="btn1">
-                                        Shop Now
+                                        Start Exploring
                                     </a>
                                 </div>
                             </div>
@@ -61,17 +61,17 @@
                             <div class="detail-box">
                                 <h1>
                                     <span>
-                                    Sale 20% Off
+                                    Get Ahead with Premium Textbooks!
                                     </span>
                                     <br>
-                                    On Everything
+                                    Access Unbeatable Prices Now!
                                 </h1>
                                 <p>
-                                    Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                                Don't let expensive textbooks hold you back. Dive into our extensive collection of pre-owned course materials at unbeatable prices. Whether you're studying science, humanities, or anything in between, find the textbooks you need to excel in your classes.
                                 </p>
                                 <div class="btn-box">
                                     <a href="" class="btn1">
-                                        Shop Now
+                                        Start Exploring
                                     </a>
                                 </div>
                             </div>

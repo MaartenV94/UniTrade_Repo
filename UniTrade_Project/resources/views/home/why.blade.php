@@ -100,7 +100,7 @@
                             Fast Delivery
                         </h5>
                         <p>
-                            variations of passages of Lorem Ipsum available
+                            Next Working Day Delivery For All Products
                         </p>
                     </div>
                 </div>
@@ -212,10 +212,10 @@
                     </div>
                     <div class="detail-box">
                         <h5>
-                            Free Shiping
+                            Free To Use
                         </h5>
                         <p>
-                            variations of passages of Lorem Ipsum available
+                            Using The UniTrade Service is Free Of Charge
                         </p>
                     </div>
                 </div>
@@ -236,7 +236,7 @@
                             Best Quality
                         </h5>
                         <p>
-                            variations of passages of Lorem Ipsum available
+                            All Products Go Through Quality Control and Checks
                         </p>
                     </div>
                 </div>

@@ -12,7 +12,7 @@
                         </h2>
                     </div>
                     <p style="margin-top: 20px;margin-bottom: 30px;">
-                        Vitae fugiat laboriosam officia perferendis provident aliquid voluptatibus dolorem, fugit ullam sit earum id eaque nisi hic? Tenetur commodi, nisi rem vel, ea eaque ab ipsa, autem similique ex unde!
+                        Discover the latest arrivals of essential academic equipment for university students! Whether you're in need of textbooks, scientific calculators, or study aids, find everything you need to succeed in your courses. Don't miss out on our newest additions!
                     </p>
                 </div>
             </div>
