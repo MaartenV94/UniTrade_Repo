@@ -17,7 +17,11 @@
                                     Discover Great Deals Today!
                                 </h1>
                                 <p>
-                                Looking for textbooks, electronics, furniture, or other academic materials? You're in the right place! Our platform connects university students like you to buy and sell pre-owned academic essentials at affordable prices. Whether you're hunting for the perfect textbook for your next course or ready to declutter your dorm room, we've got you covered.
+                                Looking for textbooks, electronics, furniture, or other academic materials? 
+                                You're in the right place! Our platform connects university students like you 
+                                to buy and sell pre-owned academic essentials at affordable prices. Whether 
+                                you're hunting for the perfect textbook for your next course or ready to declutter 
+                                your dorm room, we've got you covered.
                                 </p>
                                 <div class="btn-box">
                                     <a href="" class="btn1">
@@ -42,7 +46,9 @@
                                     Explore Amazing Discounts
                                 </h1>
                                 <p>
-                                Transform your dorm room into a productivity haven with our selection of furniture and stationery essentials. Whether you need a cozy study chair, a spacious desk, or colorful organizers, discover everything you need to create an inspiring workspace.
+                                Transform your dorm room into a productivity haven with our selection of furniture 
+                                and stationery essentials. Whether you need a cozy study chair, a spacious desk, or 
+                                colorful organizers, discover everything you need to create an inspiring workspace.
                                 </p>
                                 <div class="btn-box">
                                     <a href="" class="btn1">
@@ -67,7 +73,9 @@
                                     Access Unbeatable Prices Now!
                                 </h1>
                                 <p>
-                                Don't let expensive textbooks hold you back. Dive into our extensive collection of pre-owned course materials at unbeatable prices. Whether you're studying science, humanities, or anything in between, find the textbooks you need to excel in your classes.
+                                Don't let expensive textbooks hold you back. Dive into our extensive collection of 
+                                pre-owned course materials at unbeatable prices. Whether you're studying science, 
+                                humanities, or anything in between, find the textbooks you need to excel in your classes.
                                 </p>
                                 <div class="btn-box">
                                     <a href="" class="btn1">

@@ -12,7 +12,9 @@
                         </h2>
                     </div>
                     <p style="margin-top: 20px;margin-bottom: 30px;">
-                        Discover the latest arrivals of essential academic equipment for university students! Whether you're in need of textbooks, scientific calculators, or study aids, find everything you need to succeed in your courses. Don't miss out on our newest additions!
+                        Discover the latest arrivals of essential academic equipment for university students! 
+                        Whether you're in need of textbooks, scientific calculators, or study aids, find everything 
+                        you need to succeed in your courses. Don't miss out on our newest additions!
                     </p>
                 </div>
             </div>
