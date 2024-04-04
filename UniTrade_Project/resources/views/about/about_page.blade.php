@@ -35,16 +35,62 @@
             border-color: #2f99e0;
             color: #ffffff; /* Text color */
         }
+        .p {
+            width: 75%;
+            padding-bottom: 30px ;
+        }
     </style>
 </head>
 <body>
+
 <div class="hero_area">
     <!-- header section starts -->
     @include('home.header')
     <!-- end header section -->
+
+    <div class="heading_container heading_center">
+        <h2>
+            About Us
+        </h2>
+        <p class="p">
+            At our e-commerce platform, we understand the challenges university 
+            students face when it comes to acquiring and disposing of academic 
+            equipment, books, electronics, and more. That's why we've created a 
+            convenient marketplace tailored specifically for students, allowing 
+            them to buy and sell unused items effortlessly. Our platform serves 
+            as a hub for students to find academic resources they need for their 
+            current modules, while also providing a sustainable solution for 
+            those looking to declutter their space. We believe in fostering a 
+            community where students can not only alleviate the burden of storing 
+            unnecessary items from past courses but also have the opportunity to 
+            earn some extra income by selling what they no longer need. Through 
+            our platform, students can easily connect with each other, making 
+            transactions smoother and fostering a sense of camaraderie among peers.
+        </p>
+        <p class="p">
+            At our core, we're committed to simplifying the process of exchanging 
+            academic resources among university students. Whether you're searching 
+            for a specific textbook, a piece of equipment for a lab project, or 
+            simply looking to upgrade your electronics, our platform offers a diverse 
+            range of items to meet your needs. By harnessing the power of online 
+            commerce, we aim to empower students to take control of their academic 
+            journey while also promoting sustainability through the reuse of resources. 
+            Join us in creating a vibrant marketplace where students can thrive 
+            academically, financially, and socially. Together, let's build a community 
+            where every transaction is a win-win, benefiting both buyers and sellers 
+            alike.
+        </p>
+    </div>
+
+    <!-- why section -->
+    @include('home.why')
+    <!-- end why section -->
+
+    <!-- arrival section -->
+    @include('home.new_arrival')
+    <!-- end arrival section -->        
 </div>
 
-<h1>About Page</h1>
 
 <!-- footer start -->
 @include('home.footer')

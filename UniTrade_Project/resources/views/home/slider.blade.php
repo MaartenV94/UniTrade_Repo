@@ -24,7 +24,7 @@
                                 your dorm room, we've got you covered.
                                 </p>
                                 <div class="btn-box">
-                                    <a href="" class="btn1">
+                                    <a href="{{url('product_page')}}" class="btn1">
                                         Start Exploring
                                     </a>
                                 </div>
@@ -51,7 +51,7 @@
                                 colorful organizers, discover everything you need to create an inspiring workspace.
                                 </p>
                                 <div class="btn-box">
-                                    <a href="" class="btn1">
+                                    <a href="{{url('product_page')}}" class="btn1">
                                         Start Exploring
                                     </a>
                                 </div>
@@ -78,7 +78,7 @@
                                 humanities, or anything in between, find the textbooks you need to excel in your classes.
                                 </p>
                                 <div class="btn-box">
-                                    <a href="" class="btn1">
+                                    <a href="{{url('product_page')}}" class="btn1">
                                         Start Exploring
                                     </a>
                                 </div>

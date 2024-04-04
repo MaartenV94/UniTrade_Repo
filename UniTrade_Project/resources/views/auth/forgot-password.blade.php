@@ -1,7 +1,7 @@
 <x-guest-layout>
     <x-authentication-card>
         <x-slot name="logo">
-            <x-authentication-card-logo />
+        <a class="navbar-brand" href="{{url('/')}}"><img width="250" height="50" src="images/transparentLogo.png" alt="#" /></a>
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600">
